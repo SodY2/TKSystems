@@ -39,16 +39,16 @@
      	});
 		owl.owlCarousel({
 			items: 1,
-		    loop: false,
+		    loop: true,
 		    margin: 0,
-		    responsiveClass: false,
-		    nav: false,
-		    dots: false,
-		    autoHeight: false,
-		    smartSpeed: 54444444444444444444444444444444400,
-		    autoplay: false,
-			autoplayTimeout: 500444444444444444444440,
-			autoplayHoverPause: false,
+		    responsiveClass: true,
+		    nav: true,
+		    dots: true,
+		    autoHeight: true,
+		    smartSpeed: 500,
+		    autoplay: true,
+			autoplayTimeout: 5000,
+			autoplayHoverPause: true,
 		    navText: [	
 		      "<i class='icon-arrow-left2 owl-direction'></i>",
 		      "<i class='icon-arrow-right2 owl-direction'></i>"
