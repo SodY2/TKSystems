@@ -34,6 +34,10 @@ a:hover, a:active, a:focus {
   outline: none;
 }
 
+#impressum-link a{
+  color: #818892;
+}
+
 p {
   margin-bottom: 1.5em;
 }
